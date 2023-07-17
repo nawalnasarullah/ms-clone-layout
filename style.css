@@ -45,9 +45,25 @@ body{
     width: 25%;
     background-color: white;
     margin: 10px;
-    padding: 12px;
+   
 }
 
 .product-card img{
     width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+.position-box{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 1);
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
 }
