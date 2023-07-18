@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .primary-nav{
@@ -16,7 +19,7 @@ body{
 .primary-nav ul li{
     list-style-type: none;
     margin: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 
 .primary-nav ul li a{
@@ -25,13 +28,20 @@ body{
     
 }
 
+.primary-nav ul li img{
+    width: 80px;
+}
+
 .primary-nav ul li a:hover{
     
     text-decoration: underline;
 }
 
+
+
 .image-header{
     padding: 0 10px 0 10px;
+    position: relative;
 }
 .image-header img{
     width: 100%;
@@ -44,7 +54,7 @@ body{
 .product-card{
     width: 25%;
     background-color: white;
-    margin: 10px;
+    padding: 10px;
    
 }
 
@@ -52,18 +62,177 @@ body{
     width: 100%;
 }
 
+.product-card a{
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.product-card a:hover{
+    text-decoration: underline;
+}
+
 .container{
-    width: 70%;
+    width: 1170px;
     margin: 0 auto;
     
 }
 
-.position-box{
-    position: fixed;
-    width: 200px;
+.layout-text{
+    position: absolute;
+    width: 400px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 1);
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
+    left: 10%;
+}
+
+.layout-text ul{
+    display: flex;
+    padding: 0;
+}
+
+.layout-text ul li{
+    list-style-type: none;
+    
+}
+
+.layout-li-first{
+    background-color: #0067b8;
+    padding: 10px 20px;
+    border: none;
+}
+
+.layout-li-second{
+    padding: 10px 20px;
+}
+
+.layout-text ul li a{
+    text-decoration: none;
+}
+
+.layout-li-first a{
+    color: white;
+}
+
+.layout-li-second a{
+    color: black;
+}
+
+.layout-li-second a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.main-img{
+    
+    position: relative;
+    padding: 10px;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.layout-text-main{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+}
+
+.layout-text-main ul{
+    padding: 0;
+}
+
+.layout-text-main ul li{
+    list-style: none;
+    background-color: #0067b8;
+    padding: 10px 20px;
+    border: none;
+    width: 100px;
+
+}
+
+.layout-text-main ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.buisness-heading{
+    padding: 10px;
+}
+
+.main-end-links{
+    display: flex;
+    padding: 0;
+}
+
+.main-end-links li{
+    list-style: none;
+}
+
+.main-end-links li p{
+    margin: 0;
+    padding: 0 10px;
+}
+
+.main-end-links li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.footer-end-links{
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+.footer-end-links h3{
+    padding: 10px;
+    margin: 0;
+}
+
+.footer-end-links ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-end-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-end-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-buisness-links{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+}
+
+.footer-buisness-links ul{
+    display: flex;
+}
+
+.footer-buisness-links ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-buisness-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-buisness-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-buisness-links ul li p{
+    margin: 0;
+    padding: 0 10px;
 }
